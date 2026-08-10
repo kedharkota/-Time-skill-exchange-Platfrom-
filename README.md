@@ -1,1 +1,1 @@
-# -Time-skill-exchange-Platfrom-
+# Time-Skill-Exchange-platform
