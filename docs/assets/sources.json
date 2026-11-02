@@ -1,0 +1,14 @@
+[
+  {
+    "path": "docs/assets/overview.svg",
+    "source": "New explanatory project-workflow diagram based on the committed source and documentation; not a screenshot or measured result."
+  },
+  {
+    "path": "docs/assets/database-design.png",
+    "source": "A5.drawio.png, original repository diagram"
+  },
+  {
+    "path": "docs/assets/preview.png",
+    "source": "Screenshot of committed index.html served over local HTTP at a 1440x1000 viewport; captured 2026-11-02. Database/model integrations were not run."
+  }
+]
