@@ -4,11 +4,26 @@ A community platform for exchanging skills through time credits.
 
 **JavaScript · Node.js · Express · PostgreSQL · HTML/CSS**
 
+[![Documentation checks](https://github.com/kedharkota/-Time-skill-exchange-Platfrom-/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/kedharkota/-Time-skill-exchange-Platfrom-/actions/workflows/docs.yml)
+
 [Overview](#overview) · [Getting started](#getting-started) · [Repository guide](#repository-guide) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
-![Time Bank · Skill Exchange Platform: project preview](docs/assets/preview.png)
+<p align="center">
+  <img src="docs/assets/preview.png" alt="Time Bank · Skill Exchange Platform: project preview" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/preview.png)
 
 *Actual public landing page. Database-backed interactions were not exercised.*
+
+## Project at a glance
+
+| Detail | Project information |
+| --- | --- |
+| **Focus** | Community skill exchange with time credits |
+| **Start here** | [index.html](index.html) |
+| **Run mode** | Static frontend preview plus Node.js/PostgreSQL backend |
+| **Explore** | Landing page, member interfaces, API routes, and database design |
 
 ## Overview
 
@@ -23,7 +38,11 @@ A web application prototype where members offer skills, request help, and track 
 
 ## Workflow
 
-![Project workflow](docs/assets/overview.svg)
+<p align="center">
+  <img src="docs/assets/overview.svg" alt="Project workflow" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/overview.svg)
 
 *Explanatory diagram. Detailed implementation and availability notes follow below.*
 
@@ -72,7 +91,11 @@ The screenshot shows the actual landing page, without a running database. API ro
 <details>
 <summary>Original database design</summary>
 
-![Original database design](docs/assets/database-design.png)
+<p align="center">
+  <img src="docs/assets/database-design.png" alt="Original database design" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/database-design.png)
 
 </details>
 
@@ -83,6 +106,9 @@ The screenshot shows the actual landing page, without a running database. API ro
 
 ## Documentation maintenance
 
+<details>
+<summary>Run documentation checks and maintain visuals</summary>
+
 Local documentation links and image headers are checked on pull requests and relevant pushes by the [documentation workflow](.github/workflows/docs.yml). Run the same check locally:
 
 ```bash
@@ -90,6 +116,12 @@ python tools/check_docs.py
 ```
 
 See the [reproducibility guide](docs/REPRODUCIBILITY.md) for evidence, missing artifacts, and visual-source notes. The check validates documentation files; it does not train models or certify application behavior.
+
+</details>
+
+## Explore related projects
+
+- [Kota Kedharnadh / Developer Portfolio](https://github.com/kedharkota/My-Portfolio)
 
 ---
 
